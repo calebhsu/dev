@@ -1,0 +1,67 @@
+/* CSS Styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+}
+
+/* ClearFix Paul Irish */
+.clearfix:after{
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+/* Global Styles */
+.centerme {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* Page Styles */
+.home {
+	background-color: rgba(140, 210, 180, 0.6);
+	font-family: sans-serif;
+	font-size: 68.5%;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h2, p, li {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 1.9em;
+}
+
+p {
+	font-size: 1.4em;
+}
+
+.box {
+	background: rgba(255,255,255,0.65);
+	border: 1px solid rgba(0,0,0,0.5);
+	padding: 5px 10px;
+	margin-bottom: 15px;
+}
+
+.twocolumn {
+	width: 450px;
+}
