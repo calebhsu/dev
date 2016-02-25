@@ -1,0 +1,24 @@
+/* CSS Styles */
+
+/* Clear Out Predefined Test */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+.centerme {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
