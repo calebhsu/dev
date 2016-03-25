@@ -6,6 +6,7 @@ body {
 
 a {
   font-family: $font-links;
+  text-decoration: none;
 }
 
 header {
@@ -50,6 +51,10 @@ nav {
     margin: 4em auto;
     width: 11em;
   }
+} // nav
+
+#sidebar {
+  vertical-align: center;
 }
 
 #projects {
@@ -60,9 +65,9 @@ nav {
     list-style: none;
     margin: 1em 2em;
     text-align: center;
+
     a {
       display: block;
-      text-decoration: none;
     }
     img {
       width: 20em;
@@ -74,6 +79,7 @@ nav {
 /* Special */
 #content {
   background-color: $project-section-color;
+  border: 0.1em solid $project-border-color;
   display: inline;
   float: left;
   margin-left: 20em;
@@ -82,11 +88,39 @@ nav {
 
   h3 {
     background-color: $project-header-color;
-    border-bottom: 0.1em dashed;
+    border-bottom: 1em double;
+    color: white;
     font-size: 1.3em;
     letter-spacing: 0.3em;
     padding: 1em;
     text-align: center;
     text-transform: lowercase;
+  }
+}
+
+#external {
+  background: rgba(223, 197, 113, 1);
+  padding: 0.8em 2em;
+  position: fixed;
+  text-align: center;
+  bottom: 3em;
+  width: 16em;
+
+  a:link {
+    color: $ext-link-color;
+  }
+  a:hover {
+    background-color: $ext-link-hover;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+  }
+  a:visited {
+    color: $ext-link-visited-color;
+  }
+
+  li {
+    display: inline;
+    margin: 0 0.5em;
   }
 }

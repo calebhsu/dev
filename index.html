@@ -2,7 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="css/main.css" rel="stylesheet">
+
   <title>Front End Web Development</title>
 </head>
 <body>
@@ -10,10 +13,24 @@
     <h1>Advanced Web Development</h1>
   </header>
 
-  <nav>
-    <img src="img/dandelion.png"></img>
-<!--     <h2>Caleb Hsu</h2> -->
-  </nav>
+  <div id="sidebar">
+    <nav>
+      <img src="img/dandelion.png"></img>
+  <!--     <h2>Caleb Hsu</h2> -->
+
+      <ul id="interal">
+        <li><a href="#projects">Projects</a></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+
+    <ul id="external">
+      <li><a href="#"><i class="fa fa-home fa-lg"></i></a></li>
+      <li><a href="https://github.com/calebhsu"><i class="fa fa-github-square fa-lg"></i></a></li>
+      <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
+    </ul>
+  </div> <!-- div #sidebar -->
   
   <div id="content">
     <h3>Projects</h3>
@@ -46,8 +63,6 @@
          <a href="#">Custom Boilerplate</a>
       </li>
     </ul>
-
-    <p><a href="https://github.com/calebhsu">GitHub</a></p>
-  </div>
+  </div> <!-- content -->
 </body>
 </html>
