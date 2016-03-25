@@ -1,4 +1,5 @@
 body {
+  @include background('../img/swirl.jpg');
   font-family: $font-stack;
   font-color: $font-color;
 }
@@ -6,11 +7,21 @@ body {
 a {
   font-family: $font-links;
 }
-h1,
-h2,
-h3 {
-  font-family: $font-heading;
-  padding: 1em;
+
+header {
+  background-color: $header-color;
+  position: absolute;
+  text-align: right;
+  top: 1em;
+  width: 100%;
+  h1 {
+    color: $header-font-color;
+    font-family: $font-heading;
+    font-size: 1.5em;
+    letter-spacing: 0.15em;
+    margin: 0.5em 1em 0;
+    text-transform: uppercase;
+  }
 }
 
 p {
@@ -18,29 +29,48 @@ p {
 }
 
 nav {
-  background-color: $fg-color;
-  border: 1px solid $font-color;
+  background-color: $nav-color;
+  border-right: 0.6em solid $border-color;
+  border-left: 0.6em solid $border-color;
+  display: inline;
+  float: left;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 2em;
+  position: fixed;
   text-align: center;
-  padding: 10px;
-    ul {
-      list-style: none;
-      li {
-        display: inline-block;
-        padding-left: 20px;
+  width: 15em;
 
-        a {
-          text-decoration: none;
-          font-family: $font-links;
-        }
-        a:hover,
-        a:active {
-          background-color: $accent-color;
-        }
-      } // li
-    } // ul
-} // nav
+  h2 {
+    font-color: white;
+  }
+
+  img {
+    border: 0.5em solid rgba(239, 239, 239, 1);
+    margin: 2em auto;
+    width: 11em;
+  }
+}
+
+#projects {
+  text-align: center;
+
+  .proj {
+    display: inline-block;
+    list-style: none;
+    margin: 1em 2em;
+    text-align: center;
+    a {
+      display: block;
+      text-decoration: none;
+    } // a
+  } // proj
+} // projects
 
 /* Special */
-.container {
-  padding: 1em;
+#content {
+  display: inline;
+  float: left;
+  margin-left: 19em;
+  margin-top: 5em;
 }
