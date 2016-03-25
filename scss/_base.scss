@@ -14,12 +14,13 @@ header {
   text-align: right;
   top: 1em;
   width: 100%;
+
   h1 {
     color: $header-font-color;
     font-family: $font-heading;
-    font-size: 1.5em;
+    font-size: 1.75em;
     letter-spacing: 0.15em;
-    margin: 0.5em 1em 0;
+    margin: 0.6em 1em 0.1em;
     text-transform: uppercase;
   }
 }
@@ -35,8 +36,7 @@ nav {
   display: inline;
   float: left;
   height: 100%;
-  margin: 0 auto;
-  margin-left: 2em;
+  margin: 0 0 0 2em;
   position: fixed;
   text-align: center;
   width: 15em;
@@ -47,7 +47,7 @@ nav {
 
   img {
     border: 0.5em solid rgba(239, 239, 239, 1);
-    margin: 2em auto;
+    margin: 4em auto;
     width: 11em;
   }
 }
@@ -63,14 +63,30 @@ nav {
     a {
       display: block;
       text-decoration: none;
-    } // a
+    }
+    img {
+      width: 20em;
+    }
   } // proj
+
 } // projects
 
 /* Special */
 #content {
+  background-color: white;
   display: inline;
   float: left;
-  margin-left: 19em;
-  margin-top: 5em;
+  margin-left: 20em;
+  margin-top: 5.5em;
+  width: 72%;
+
+  h3 {
+    background-color: $project-header-color;
+    border-bottom: 0.1em dashed;
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    padding: 1em;
+    text-align: center;
+    text-transform: lowercase;
+  }
 }

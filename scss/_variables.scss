@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Droid+Serif|Inconsolata|Corbel);
 
 // Font
-$font-stack: tahoma, helvetica, serif;
 $font-copy: 'Open Sans', sans-serif;
-$font-heading: 'Corbel', serif;
+$font-heading: 'Corbel', sans-serif;
 $font-links: 'Inconsolata', monospace;
+$font-project: 'Corbel', serif;
+$font-stack: tahoma, helvetica, serif;
 
 // Color
 $border-color: rgba(162, 159, 125, 1);
@@ -12,5 +13,10 @@ $border-color: rgba(162, 159, 125, 1);
 $header-color: rgba(223, 197, 113, 0.8);
 $header-font-color: rgba(140, 129, 77, 0.95);
 
-$nav-color: rgba(255, 255, 255, 1);
 $font-color: rgba(1,1,1,1);
+
+$nav-color: rgba(255, 255, 255, 1);
+
+$project-header-color: rgba(181, 226, 231, 1);
+
+
