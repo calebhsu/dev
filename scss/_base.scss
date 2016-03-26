@@ -26,10 +26,6 @@ header {
   }
 }
 
-p {
-  font-family: $font-copy;
-}
-
 nav {
   background-color: $nav-color;
   border-right: 0.6em solid $border-color;
@@ -43,13 +39,16 @@ nav {
   width: 15em;
 
   h2 {
-    font-color: white;
+    font-family: $font-name;
+    font-size: 2em;
+    margin: 1em 0;
+    white-space: nowrap;
   }
 
   img {
-    border: 0.5em solid rgba(239, 239, 239, 1);
-    margin: 4em auto;
-    width: 11em;
+    border: 0.4em solid rgba(223, 197, 113, 0.5);
+    margin: 5.5em 0 1em;
+    width: 12em;
   }
 } // nav
 

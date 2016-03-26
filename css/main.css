@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Droid+Serif|Inconsolata|Corbel);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Droid+Serif|Inconsolata|Corbel|Rock+Salt);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,7 +59,7 @@ body {
   background-image: url("../img/swirl.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: tahoma, helvetica, serif;
+  font-family: "Open Sans", tahoma, helvetica, serif;
   font-color: #010101;
 }
 
@@ -84,10 +84,6 @@ header h1 {
   text-transform: uppercase;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
-}
-
 nav {
   background-color: white;
   border-right: 0.6em solid #a29f7d;
@@ -101,12 +97,15 @@ nav {
   width: 15em;
 }
 nav h2 {
-  font-color: white;
+  font-family: "Rock Salt", serif;
+  font-size: 2em;
+  margin: 1em 0;
+  white-space: nowrap;
 }
 nav img {
-  border: 0.5em solid #efefef;
-  margin: 4em auto;
-  width: 11em;
+  border: 0.4em solid rgba(223, 197, 113, 0.5);
+  margin: 5.5em 0 1em;
+  width: 12em;
 }
 
 #sidebar {
