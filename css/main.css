@@ -61,6 +61,7 @@ body {
   background-attachment: fixed;
   font-family: "Open Sans", tahoma, helvetica, serif;
   font-color: #010101;
+  overflow-x: hidden;
 }
 
 a {
@@ -114,6 +115,7 @@ nav img {
 
 #projects {
   text-align: center;
+  margin: 2em auto;
 }
 #projects .proj {
   display: inline-block;

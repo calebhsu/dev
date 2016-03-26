@@ -2,6 +2,7 @@ body {
   @include background('../img/swirl.jpg');
   font-family: $font-stack;
   font-color: $font-color;
+  overflow-x: hidden;
 }
 
 a {
@@ -58,6 +59,7 @@ nav {
 
 #projects {
   text-align: center;
+  margin: 2em auto;
 
   .proj {
     display: inline-block;
