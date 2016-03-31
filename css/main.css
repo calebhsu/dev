@@ -124,7 +124,23 @@ nav img {
   text-align: center;
 }
 #projects .proj a {
+  background-color: #66a4ab;
+  color: white;
   display: block;
+  font-family: 'Open Sans', 'Corbel', sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  padding: 0.8em 0;
+  text-transform: uppercase;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+#projects .proj a:hover {
+  background-color: rgba(223, 197, 113, 0.8);
+  color: white;
+  letter-spacing: 0.1em;
 }
 #projects .proj img {
   width: 20em;

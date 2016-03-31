@@ -68,7 +68,20 @@ nav {
     text-align: center;
 
     a {
+      background-color: $project-header-color;
+      color: white;
       display: block;
+      font-family: 'Open Sans', 'Corbel', sans-serif;
+      font-size: 0.9em;
+      letter-spacing: 0.05em;
+      padding: 0.8em 0;
+      text-transform: uppercase;
+      @include transition(0.5s ease-in-out);
+    }
+    a:hover {
+      background-color: $header-color;
+      color: white;
+      letter-spacing: 0.1em;
     }
     img {
       width: 20em;
