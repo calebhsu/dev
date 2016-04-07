@@ -1,3 +1,4 @@
+/* Global CSS */
 body {
   @include background('../img/swirl.jpg');
   font-family: $font-stack;
@@ -53,6 +54,8 @@ nav {
   }
 } // nav
 
+
+/* Special CSS */
 #sidebar {
   vertical-align: center;
 }
@@ -65,10 +68,9 @@ nav {
     display: inline-block;
     list-style: none;
     margin: 1em 2em;
-    text-align: center;
 
     a {
-      background-color: $project-header-color;
+      background-color: $content-header-color;
       color: white;
       display: block;
       font-family: 'Open Sans', 'Corbel', sans-serif;
@@ -90,6 +92,25 @@ nav {
 
 } // projects
 
+#examples {
+  text-align: center;
+
+  .ex {
+    display: inline-block;
+    margin: 2em;
+  }
+  a {
+    font-family: 'Open Sans', 'Corbel', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    @include transition(0.5s ease-in-out);
+  }
+  a:hover {
+    letter-spacing: 0.1em;
+  }
+}
+
 /* Special */
 #content {
   background-color: $project-section-color;
@@ -101,7 +122,7 @@ nav {
   width: 72%;
 
   h3 {
-    background-color: $project-header-color;
+    background-color: $content-header-color;
     border-bottom: 1em double;
     color: white;
     font-size: 1.3em;
