@@ -55,6 +55,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* Global CSS */
 body {
   background-image: url("../img/swirl.jpg");
   background-repeat: repeat;
@@ -109,6 +110,7 @@ nav img {
   width: 12em;
 }
 
+/* Special CSS */
 #sidebar {
   vertical-align: center;
 }
@@ -121,7 +123,6 @@ nav img {
   display: inline-block;
   list-style: none;
   margin: 1em 2em;
-  text-align: center;
 }
 #projects .proj a {
   background-color: #66a4ab;
@@ -144,6 +145,27 @@ nav img {
 }
 #projects .proj img {
   width: 20em;
+}
+
+#examples {
+  text-align: center;
+}
+#examples .ex {
+  display: inline-block;
+  margin: 2em;
+}
+#examples a {
+  font-family: 'Open Sans', 'Corbel', sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+#examples a:hover {
+  letter-spacing: 0.1em;
 }
 
 /* Special */
