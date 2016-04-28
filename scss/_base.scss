@@ -127,13 +127,11 @@ nav {
   width: 16em;
 
   a:link {
-    color: $ext-link-color;
+    color: $nav-color;
+    @include transition(0.5s ease-in-out); 
   }
   a:hover {
-    background-color: $ext-link-hover;
-    border-radius: 50%;
-    height: 2em;
-    width: 2em;
+    padding: 0 0.5em;
   }
   a:visited {
     color: $ext-link-visited-color;
