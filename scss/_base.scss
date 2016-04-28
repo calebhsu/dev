@@ -56,62 +56,28 @@ nav {
 
 
 /* Special CSS */
-#sidebar {
-  vertical-align: center;
-}
+#internal {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 
-#projects {
-  text-align: center;
-  margin: 2em auto;
-
-  .proj {
-    display: inline-block;
-    list-style: none;
-    margin: 1em 2em;
-
-    a {
-      background-color: $content-header-color;
-      color: white;
-      display: block;
-      font-family: 'Open Sans', 'Corbel', sans-serif;
-      font-size: 0.9em;
-      letter-spacing: 0.05em;
-      padding: 0.8em 0;
-      text-transform: uppercase;
-      @include transition(0.5s ease-in-out);
-    }
-    a:hover {
-      background-color: $header-color;
-      color: white;
-      letter-spacing: 0.1em;
-    }
-    img {
-      width: 20em;
-    }
-  } // proj
-
-} // projects
-
-#examples {
-  text-align: center;
-
-  .ex {
-    display: inline-block;
-    margin: 2em;
-  }
   a {
-    font-family: 'Open Sans', 'Corbel', sans-serif;
-    font-size: 0.9em;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    background-color: rgba(223, 197, 113, 1);
+    color: white;
+    display: block;
+    font-family: $font-stack;
+    letter-spacing: 0.05em;
+    margin: 1em;
+    padding: 0.8em 0;
+
     @include transition(0.5s ease-in-out);
   }
   a:hover {
+    background-color: $content-header-color;
     letter-spacing: 0.1em;
   }
 }
 
-/* Special */
 #content {
   background-color: $project-section-color;
   border: 0.1em solid $project-border-color;
@@ -130,6 +96,25 @@ nav {
     padding: 1em;
     text-align: center;
     text-transform: lowercase;
+  }
+}
+
+#examples {
+  text-align: center;
+
+  .ex {
+    display: inline-block;
+    margin: 2em;
+  }
+  a {
+    font-family: $font-stack;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    @include transition(0.5s ease-in-out);
+  }
+  a:hover {
+    letter-spacing: 0.1em;
   }
 }
 
@@ -158,4 +143,40 @@ nav {
     display: inline;
     margin: 0 0.5em;
   }
+}
+
+#projects {
+  text-align: center;
+  margin: 2em auto;
+
+  .proj {
+    display: inline-block;
+    list-style: none;
+    margin: 1em 2em;
+
+    a {
+      background-color: $content-header-color;
+      color: white;
+      display: block;
+      font-family: $font-stack;
+      font-size: 0.9em;
+      letter-spacing: 0.05em;
+      padding: 0.8em 0;
+      text-transform: uppercase;
+      @include transition(0.5s ease-in-out);
+    }
+    a:hover {
+      background-color: $header-color;
+      color: white;
+      letter-spacing: 0.1em;
+    }
+    img {
+      width: 20em;
+    }
+  } // proj
+
+} // projects
+
+#sidebar {
+  vertical-align: center;
 }

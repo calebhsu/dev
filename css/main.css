@@ -60,7 +60,7 @@ body {
   background-image: url("../img/swirl.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: "Open Sans", tahoma, helvetica, serif;
+  font-family: "Open Sans", "Corbel", sans-serif;
   font-color: #010101;
   overflow-x: hidden;
 }
@@ -111,64 +111,29 @@ nav img {
 }
 
 /* Special CSS */
-#sidebar {
-  vertical-align: center;
-}
-
-#projects {
-  text-align: center;
-  margin: 2em auto;
-}
-#projects .proj {
-  display: inline-block;
-  list-style: none;
-  margin: 1em 2em;
-}
-#projects .proj a {
-  background-color: #66a4ab;
-  color: white;
-  display: block;
-  font-family: 'Open Sans', 'Corbel', sans-serif;
+#internal {
   font-size: 0.9em;
   letter-spacing: 0.05em;
-  padding: 0.8em 0;
   text-transform: uppercase;
-  -moz-transition: ease-in-out 0.5s;
-  -o-transition: ease-in-out 0.5s;
-  -webkit-transition: ease-in-out 0.5s;
-  transition: ease-in-out 0.5s;
 }
-#projects .proj a:hover {
-  background-color: rgba(223, 197, 113, 0.8);
+#internal a {
+  background-color: #dfc571;
   color: white;
-  letter-spacing: 0.1em;
-}
-#projects .proj img {
-  width: 20em;
-}
-
-#examples {
-  text-align: center;
-}
-#examples .ex {
-  display: inline-block;
-  margin: 2em;
-}
-#examples a {
-  font-family: 'Open Sans', 'Corbel', sans-serif;
-  font-size: 0.9em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  display: block;
+  font-family: "Open Sans", "Corbel", sans-serif;
+  letter-spacing: 0.05em;
+  margin: 1em;
+  padding: 0.8em 0;
   -moz-transition: ease-in-out 0.5s;
   -o-transition: ease-in-out 0.5s;
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
 }
-#examples a:hover {
+#internal a:hover {
+  background-color: #66a4ab;
   letter-spacing: 0.1em;
 }
 
-/* Special */
 #content {
   background-color: rgba(255, 255, 255, 0.8);
   border: 0.1em solid #698d91;
@@ -187,6 +152,27 @@ nav img {
   padding: 1em;
   text-align: center;
   text-transform: lowercase;
+}
+
+#examples {
+  text-align: center;
+}
+#examples .ex {
+  display: inline-block;
+  margin: 2em;
+}
+#examples a {
+  font-family: "Open Sans", "Corbel", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+#examples a:hover {
+  letter-spacing: 0.1em;
 }
 
 #external {
@@ -212,4 +198,40 @@ nav img {
 #external li {
   display: inline;
   margin: 0 0.5em;
+}
+
+#projects {
+  text-align: center;
+  margin: 2em auto;
+}
+#projects .proj {
+  display: inline-block;
+  list-style: none;
+  margin: 1em 2em;
+}
+#projects .proj a {
+  background-color: #66a4ab;
+  color: white;
+  display: block;
+  font-family: "Open Sans", "Corbel", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  padding: 0.8em 0;
+  text-transform: uppercase;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+#projects .proj a:hover {
+  background-color: rgba(223, 197, 113, 0.8);
+  color: white;
+  letter-spacing: 0.1em;
+}
+#projects .proj img {
+  width: 20em;
+}
+
+#sidebar {
+  vertical-align: center;
 }
