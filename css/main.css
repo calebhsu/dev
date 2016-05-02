@@ -162,8 +162,10 @@ nav img {
   margin: 2em;
 }
 #examples a {
+  color: rgba(0, 0, 0, 0.6);
   font-family: "Open Sans", "Corbel", sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
+  font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   -moz-transition: ease-in-out 0.5s;
@@ -172,6 +174,7 @@ nav img {
   transition: ease-in-out 0.5s;
 }
 #examples a:hover {
+  color: rgba(0, 0, 0, 0.9);
   letter-spacing: 0.1em;
 }
 

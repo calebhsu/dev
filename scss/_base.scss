@@ -107,13 +107,16 @@ nav {
     margin: 2em;
   }
   a {
+    color: $grey;
     font-family: $font-stack;
-    font-size: 0.9em;
+    font-size: 1em;
+    font-weight: 600;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     @include transition(0.5s ease-in-out);
   }
   a:hover {
+    color: $black;
     letter-spacing: 0.1em;
   }
 }
