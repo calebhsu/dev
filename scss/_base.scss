@@ -152,6 +152,17 @@ nav {
     list-style: none;
     margin: 1em 2em;
 
+    a.github {
+      background-color: $border-color;
+      border-radius: 50%;
+      height: 2.5em;
+      line-height: 2.5em;
+      margin: 0.4em;
+      padding: 0;
+      position: absolute;
+      width: 2.5em;
+    }
+
     a {
       background-color: $content-header-color;
       color: white;
@@ -177,4 +188,15 @@ nav {
 
 #sidebar {
   vertical-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }

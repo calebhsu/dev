@@ -210,6 +210,16 @@ nav img {
   list-style: none;
   margin: 1em 2em;
 }
+#projects .proj a.github {
+  background-color: #a29f7d;
+  border-radius: 50%;
+  height: 2.5em;
+  line-height: 2.5em;
+  margin: 0.4em;
+  padding: 0;
+  position: absolute;
+  width: 2.5em;
+}
 #projects .proj a {
   background-color: #66a4ab;
   color: white;
@@ -235,4 +245,15 @@ nav img {
 
 #sidebar {
   vertical-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
